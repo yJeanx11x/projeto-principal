@@ -1,18 +1,13 @@
-/* Configurações Gerais*/
-html {
-  font-family: Helvetica, Arial, sans-serif;
-  background-color: rgb(243, 238, 238);
-  margin: 0;
-  padding: 0;
-}
+
+
 
 /* Cabeçalho */
 .ion2 {
-  padding: 6px 16px;             /* Espaçamento interno (topo/baixo e laterais) */
-  height: 40px;                  /* Altura igual ao botão da imagem (aprox.) */
+  padding: 6px 16px;            
+  height: 40px;                  
   display: flex;
-  align-items: center; /* Alinha o ícone com o texto verticalmente */
-  gap: 10px;           /* Espaço entre o ícone e o texto */
+  align-items: center;
+  gap: 10px;         
   
 }
 .ion2 img {

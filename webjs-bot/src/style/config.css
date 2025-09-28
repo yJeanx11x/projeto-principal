@@ -1,0 +1,12 @@
+* {
+  /* font-family: Helvetica, Arial, sans-serif; */
+  background-color: rgb(243, 238, 238);
+  margin: 1rem;
+  padding: 0;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  
+}

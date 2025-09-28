@@ -1,0 +1,63 @@
+.main {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-block: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+    border-radius: 2rem;
+
+    .texto {
+        width: 750px;
+        text-align: left;
+
+
+
+        h1 {
+            font-size: 32pt;
+
+        }
+
+        span {
+            font-size: 32pt;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        p {
+            font-size: 16pt;
+        }
+
+
+    }
+
+    input {
+        margin-top: 3rem;
+        width: 140px;
+        height: 40px;
+        display: flex;
+        border: none;
+        border-radius:15px;
+        cursor: pointer;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            transition: 0.7s ease-in-out;
+
+&:hover{
+    font-size: 10.5pt;
+    transition: 0.5s ease-in-out;
+}
+    }
+
+    .fotoPrincipal{
+margin-top: 0px;
+        img{
+    width:480px;
+    height: 450px;
+    margin-left: 250px;
+    display: flex;
+    
+    border-radius: 15px;
+
+}
+    }
+
+}

@@ -1,0 +1,14 @@
+.cabecalho{
+    display: flex;
+
+    align-items: center;
+
+img{
+    width: 2rem;
+}    
+
+    h1{
+        font-size: 28pt;
+        text-align: center;
+    }
+}
