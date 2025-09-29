@@ -1,0 +1,27 @@
+.cardServicos {
+    width: 1250px;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .card {
+        width: 350px;
+        height: 230px;
+        /* border: 1px solid; */
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        transition: 1s ease;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+
+        &:hover {
+            margin-top: -0.1px;
+            transition: 1s ease;
+        }
+
+    }
+}

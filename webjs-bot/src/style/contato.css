@@ -1,0 +1,39 @@
+.contato {
+   
+    padding: 15rem;
+    margin: auto;
+
+    h1 {
+        font-size: 32pt;
+        text-align: center;
+    }
+   
+
+    input,
+    select {
+        display: flex;
+        margin: auto;
+        margin-top: 1rem;
+        text-align: center;
+
+        }
+
+    input,
+    select {
+        width: 250px;
+        height: 30px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+        transition: 1s ease-out;
+
+    }
+
+    input:nth-child(5):hover {
+        box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+        cursor: pointer;
+
+        transition: 1s ease-out;
+
+    }
+
+}

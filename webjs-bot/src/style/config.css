@@ -3,6 +3,7 @@
   background-color: rgb(243, 238, 238);
   margin: 1rem;
   padding: 0;
+scroll-behavior: smooth;
 }
 
 a{
