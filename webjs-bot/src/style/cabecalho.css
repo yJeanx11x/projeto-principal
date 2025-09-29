@@ -1,14 +1,28 @@
-.cabecalho{
+.cabecalho {
     display: flex;
-
     align-items: center;
 
-img{
-    width: 2rem;
-}    
+    img {
+        width: 2rem;
+    }
 
-    h1{
+    h1 {
         font-size: 28pt;
         text-align: center;
     }
+
+    ul {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        transition: 1s ease-in-out;
+        color: rgba(211, 209, 209, 0.644);
+
+        li:hover {
+            text-decoration: overline;
+            transition: 1s ease;
+
+        }
+    }
+
 }

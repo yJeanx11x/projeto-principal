@@ -1,0 +1,18 @@
+.servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+
+    .ser {
+        h2 {
+
+            font-size: 42pt;
+        }
+
+        p {
+            font-size: 18pt;
+        }
+    }
+}
